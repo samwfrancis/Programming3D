@@ -126,3 +126,14 @@ Health Bar and Objective System
 ### ​Menus
 
 Pause menu which will have access to options and quitting to the start menu
+
+## References
+
+
+### Assets
+
+Skybox - https://polyhaven.com/a/unfinished_office_night
+
+Floor - https://polyhaven.com/a/long_white_tiles
+
+Platforms - https://polyhaven.com/a/blue_metal_plate
