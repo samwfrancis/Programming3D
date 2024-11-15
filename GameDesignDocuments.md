@@ -140,3 +140,5 @@ Floor - https://polyhaven.com/a/long_white_tiles
 Platforms - https://polyhaven.com/a/blue_metal_plate
 
 Third Person Character Controller - https://assetstore.unity.com/packages/essentials/starter-assets-thirdperson-updates-in-new-charactercontroller-pa-196526
+
+Magnet Tutorial - https://www.youtube.com/watch?v=zUmDcB3ZgOA
