@@ -1,0 +1,5 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement style="flex-grow: 1;">
+        <ui:Label tabindex="-1" text="Goal: Get the ball in the hole" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Points" style="opacity: 1; overflow: visible; visibility: visible; -unity-font: url(&quot;project://database/Library/unity%20default%20resources?fileID=10102&amp;guid=0000000000000000e000000000000000&amp;type=0#LegacyRuntime&quot;); -unity-font-style: bold; white-space: nowrap; text-overflow: clip;" />
+    </ui:VisualElement>
+</ui:UXML>
