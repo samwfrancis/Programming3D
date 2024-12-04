@@ -7,7 +7,7 @@ public class Magnet : MonoBehaviour
     public float force = 200f;
 
     List<Rigidbody> rgObjects = new List<Rigidbody>();
-    List<Rigidbody> playerObjects = new List<Rigidbody>();
+    
 
     Transform magnetPoint;
 
@@ -31,11 +31,6 @@ public class Magnet : MonoBehaviour
     {
         if (other.CompareTag("Ball"))
             rgObjects.Add(other.GetComponent<Rigidbody>());
-        if (other.CompareTag("Player"))
-            magnet.transform.SetParent(other.transform);
-        
-        
-       
     }
 
     private void OnTriggerExit(Collider other)
