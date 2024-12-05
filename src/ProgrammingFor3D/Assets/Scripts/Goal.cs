@@ -13,7 +13,6 @@ public class Goal : MonoBehaviour
     }
     void OnTriggerEnter(Collider other){
         if(other.CompareTag("Ball")){
-            Debug.Log("Goal");
             if(manager.GetPlayerDifficulty() == 1){
                 if(manager.GetPlayerScore() == 10){
                     Debug.Log("Goal");

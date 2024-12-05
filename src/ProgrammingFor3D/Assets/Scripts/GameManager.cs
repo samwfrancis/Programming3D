@@ -7,7 +7,7 @@ public class GameManager : MonoBehaviour
     public int playerScore = 0;
     bool achievedGoal = true;
 
-    int playerDifficulty = 1;
+    public int playerDifficulty = 1;
 
     public int GetPlayerScore(){
         return playerScore;
