@@ -10,12 +10,12 @@ public class Collectible : MonoBehaviour
     GameManager manager;
 
     void Start(){
+        myManager = GameObject.Find("Game Manager");
         manager = myManager.GetComponent<GameManager>();
     }
     private void OnTriggerEnter(Collider other){
         if(other.CompareTag("Ball")){
             manager.SetPlayerScore(1);
-            Debug.Log(manager.GetPlayerScore());
             Destroy(gameObject);
         }
             
