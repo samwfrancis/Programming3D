@@ -6,6 +6,8 @@ using UnityEngine;
 
 public class Collectible : MonoBehaviour
 {
+    [SerializeField] private AudioSource coin;
+    [SerializeField] private AudioClip coinAudio;
     public GameObject myManager;
     GameManager manager;
 
@@ -16,6 +18,8 @@ public class Collectible : MonoBehaviour
     private void OnTriggerEnter(Collider other){
         if(other.CompareTag("Ball")){
             manager.SetPlayerScore(1);
+            coin.PlayOneShot(coinAudio);
+            Debug.Log("Coin");
             Destroy(gameObject);
         }
             

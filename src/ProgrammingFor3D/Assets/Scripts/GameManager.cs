@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Timeline;
 
 public class GameManager : MonoBehaviour
 {
@@ -9,6 +10,8 @@ public class GameManager : MonoBehaviour
     public GameObject enemy2;
     public int playerScore = 0;
     bool achievedGoal = true;
+
+    public bool activateEnemies = true;
 
     public static int playerDifficulty = 1;
 
@@ -36,6 +39,10 @@ public class GameManager : MonoBehaviour
         achievedGoal = input;
     }
     void Start(){
+        if (activateEnemies){
+            Instantiate(enemy1, new Vector3(53, 0, 60), Quaternion.identity);
+            Instantiate(enemy2, new Vector3(57, 0, 60), Quaternion.identity);
+        }
         Instantiate(collectible, new Vector3(90, 0, 6), Quaternion.identity);
         Instantiate(collectible, new Vector3(47, 0, 7), Quaternion.identity);
         Instantiate(collectible, new Vector3(83, 5.3f, 14), Quaternion.identity);
@@ -66,8 +73,5 @@ public class GameManager : MonoBehaviour
             Instantiate(collectible, new Vector3(2.5f, 1.25f, 57), Quaternion.identity);
             Instantiate(collectible, new Vector3(12, 1.25f, 47), Quaternion.identity);
         }
-        
-        Instantiate(enemy1, new Vector3(53, 0, 60), Quaternion.identity);
-        Instantiate(enemy2, new Vector3(57, 0, 60), Quaternion.identity);
     }
 }

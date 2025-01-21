@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class Magnet : MonoBehaviour
 {
+    [SerializeField] private AudioSource magnetise;
+    [SerializeField] private AudioClip magnetiseAudio;
+
     public float force = 200f;
 
     List<Rigidbody> rgObjects = new List<Rigidbody>();
@@ -31,11 +34,21 @@ public class Magnet : MonoBehaviour
     {
         if (other.CompareTag("Ball"))
             rgObjects.Add(other.GetComponent<Rigidbody>());
+            PlayMagnetAudio();
     }
 
     private void OnTriggerExit(Collider other)
     {
         if (other.CompareTag("Ball"))
             rgObjects.Remove(other.GetComponent<Rigidbody>());
+            StopMagnetAudio();
+    }
+
+    public void PlayMagnetAudio(){
+        magnetise.PlayOneShot(magnetiseAudio);
+    }
+
+    public void StopMagnetAudio(){
+        magnetise.Stop();
     }
 }
