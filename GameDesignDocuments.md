@@ -21,15 +21,15 @@ Targeting a broad audience. Suitable for families and fans of Platform games. Sy
 
 ### ​Game Influences
 
-Physics influenced from Super Mario Galaxy and The Legend of Zelda: Breath of the Wild. Give the player lots of feedback for interacting with the environment like Astro Bot. Setting similar to the Matrix in terms of how reality can be manipulated and distorted. Plot Similar to Portal.
+Main influence is Portal. Physics based puzzle game set in a lab where the player is forced to complete experiements. Influenced by other gimmick based gold games.
 
 ### ​Player Objectives
 
-Get to the end of the level and return to the regular world
+Collect coins and get the ball in the hole
 
 ### ​Distinctive Features
 
-The level of Interactability in the World allows players to solve platforming challenges in multiple ways
+Using a magent to guide a metal ball around a level to solve puzzles
 
 ## ​The Story
 
@@ -37,7 +37,7 @@ The level of Interactability in the World allows players to solve platforming ch
 
 ### ​The Premise
 
-The Character has a normal life in a regular world but is captured my Scientists and is sent to a virtual world to see how he will escape
+The Character is captured by Scientists and is sent to a virtual world to see how they will solve puzzles
 
 ### ​In-game Narrative
 
@@ -45,26 +45,26 @@ The Player is trying to escape the virtual world whilst the creators are trying 
 
 ### ​Missions/Challenges
 
-Will start of with basic platforming challenges but will increase to involve different gravity fields and physics objects
+Will start of with basic puzzles challenges but will increase to involve more coins in harder to reach areas
 
 ### ​Choice points
 
-No direct branches but if secret ending will appear for completionists
+No direct branches but diffiuclt will effect number of coins spawned
 
 ## Characters
 
 
 ### Player Characters
 
-Main Character will be a bear who wears a bucket hat and trousers
+Main Character will be a robot that the scientists have built to test their puzzles
 
 ### Enemies
 
-Enemies will be Wasps, Bees and Hornets
+Enemies will be floating round creatures with colourful designs
 
 ### Allies
 
-No Allies but will be assisted by Power-ups
+No Allies
 
 ## ​Environment
 
@@ -76,7 +76,7 @@ Levels will be Large with Multiple objectives in them so players will visit the 
 
 ### ​Levels and Locations
 
-Start Will be a forest and the rest of the game will be a Lab
+Set in a lab
 
 ## Sound
 
@@ -98,34 +98,33 @@ Spacey Ambience to create a sterile atmosphere
 
 ### ​Movement
 
-Player will have a jump and a movement option (maybe dive).
-
+Player will have a jump and sprint
 ### ​Controls
 
-Preferably played with a controller to give the player more accuracy when calculating jumps.
+Played with mouse and keyboard
 
 ### ​Weapons
 
-Player will have a melee attack as well as being able to use the environment to defeat enemies
+No weapons, players will have to avoid enemies
 
 ### ​Inventory
 
-No, only a equipped powerup
+Magnet will be able to be picked up
 
 ## Graphical User Interface
 
 
 ### ​Maps and Views
 
-Map of the level from a top down perspective
+No map as level will be easy to explore without
 
 ### ​Heads Up Display (HUD)
 
-Health Bar and Objective System
+Objective will be listed in the top left corner
 
 ### ​Menus
 
-Pause menu which will have access to options and quitting to the start menu
+Start menu to select difficulty and a win or lose screen
 
 ## References
 
