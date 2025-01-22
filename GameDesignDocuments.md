@@ -95,6 +95,7 @@ Spacey Ambience to create a sterile atmosphere
 
 ### ​Mechanics
 
+Players will be able to pick up a magnet and use it to control a metal ball and guide it to collect coins
 
 ### ​Movement
 
